@@ -67,6 +67,3 @@ alias pg-stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 alias s='open -a "Sublime Text 2"'
 alias mou='open -a "Mou"'
 alias ia='open -a "iA Writer"'
-
-# isocket
-alias idev='ssh idev.com'
