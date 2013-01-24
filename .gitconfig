@@ -45,3 +45,9 @@
 [url "git@github.com:maxbeatty/"]
   insteadOf = "git://github.com/maxbeatty/"
   
+[push]
+  default = tracking
+[diff]
+  renames = copies
+[rerere]
+  enabled = true
