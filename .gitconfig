@@ -51,3 +51,5 @@
   renames = copies
 [rerere]
   enabled = true
+[user]
+	signingkey = B2E961B7

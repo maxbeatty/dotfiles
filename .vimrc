@@ -1,0 +1,2 @@
+colorscheme smyck
+syntax on
