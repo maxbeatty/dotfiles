@@ -5,22 +5,25 @@
 [help]
 	autocorrect = 1
 [color]
-  ui = always
+	ui = true
 [apply]
   whitespace = fix
 [core]
   excludesfile = ~/.gitignore
   attributesfile = ~/.gitattributes
   whitespace = fix,space-before-tab,tab-in-indent,trailing-space
+	pager = diff-so-fancy | less --tabs=4 -RFX
 [color "branch"]
   current = yellow reverse
   local = yellow
   remote = green
 [color "diff"]
-  meta = yellow bold
-  frag = magenta bold
-  old = red bold
-  new = green bold
+	meta = yellow
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	commit = yellow bold
+	whitespace = red reverse
 [color "status"]
   added = yellow
   changed = green
@@ -52,4 +55,22 @@
 [rerere]
   enabled = true
 [user]
-	signingkey = B2E961B7
+	signingkey = 7537DC3958DA47BA
+	name = Max Beatty
+	email = max@beatty.me
+[commit]
+	gpgsign = false
+[gpg]
+	program = /usr/local/bin/gpg
+[tag]
+	gpgsign = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22

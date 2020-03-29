@@ -1,2 +1,3 @@
-colorscheme smyck
+packadd! dracula
 syntax on
+colorscheme dracula
