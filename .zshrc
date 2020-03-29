@@ -39,6 +39,8 @@ alias o="open ."
 alias gst="git status -sb"
 alias gc="git commit -am"
 alias gcb="git checkout -b"
+alias gco="git checkout"
+alias gd="git diff"
 alias gf="git fetch"
 alias gl="git pull"
 alias glg="git log --stat"
@@ -47,7 +49,8 @@ alias git-cleanup=". ~/git-cleanup.sh"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
+
 # call `nvm use` automatically in a directory with a .nvmrc file
 autoload -U add-zsh-hook
 load-nvmrc() {
