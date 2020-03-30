@@ -3,7 +3,7 @@
 Install dependencies with [Homebrew](https://brew.sh/):
 
 ```sh
-brew install bat diff-so-fancy fzf go nvm powerlevel10k prettyping zsh-autosuggestions zsh-syntax-highlighting
+brew install bat diff-so-fancy fzf go nvm romkatv/powerlevel10k/powerlevel10k prettyping zsh-autosuggestions zsh-syntax-highlighting
 ```
 
 My config and settings files for OS X
