@@ -6,6 +6,8 @@ Install dependencies with [Homebrew](https://brew.sh/):
 brew install bat diff-so-fancy fzf go nvm romkatv/powerlevel10k/powerlevel10k prettyping zsh-autosuggestions zsh-syntax-highlighting
 ```
 
+`wd` (_warp directory_) should be installed with [automatic `curl`](https://github.com/mfaerevaag/wd#automatic) to `~/bin/wd/wd.sh`.
+
 My config and settings files for OS X
 
 ```sh

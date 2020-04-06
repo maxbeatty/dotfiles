@@ -76,3 +76,6 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
+wd() {
+  . ~/bin/wd/wd.sh
+}
