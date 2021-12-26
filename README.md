@@ -1,14 +1,14 @@
-# Max's dotfiles
+# @maxbeatty's dotfiles
 
 Install dependencies with [Homebrew](https://brew.sh/):
 
 ```sh
-brew install bat diff-so-fancy fzf go nvm romkatv/powerlevel10k/powerlevel10k prettyping zsh-autosuggestions zsh-syntax-highlighting
+brew install bat diff-so-fancy fzf go node romkatv/powerlevel10k/powerlevel10k prettyping zsh-autosuggestions zsh-syntax-highlighting
 ```
 
 `wd` (_warp directory_) should be installed with [automatic `curl`](https://github.com/mfaerevaag/wd#automatic) to `~/bin/wd/wd.sh`.
 
-My config and settings files for OS X
+My config and settings files for macOS
 
 ```sh
 git clone https://github.com/maxbeatty/dotfiles.git && \
@@ -17,3 +17,13 @@ cd dotfiles && \
 ```
 
 Inspired by [Paul Irish](https://github.com/paulirish/dotfiles), [Mathias Bynens](https://github.com/mathiasbynens/dotfiles/), and [Ben Alman](https://github.com/cowboy/dotfiles)
+
+## Terminal
+
+I like the [Hack font](https://sourcefoundry.org/hack/) and pick something like Dracula from [lysyi3m/macos-terminal-themes](https://github.com/lysyi3m/macos-terminal-themes)
+
+## Additional Resources
+
+- [CLI:improved](https://remysharp.com/2018/08/23/cli-improved)
+- [speed-test](https://github.com/sindresorhus/speed-test)
+- [fast-cli](https://github.com/sindresorhus/fast-cli)

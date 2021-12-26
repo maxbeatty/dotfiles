@@ -47,7 +47,7 @@
 # http://rentzsch.tumblr.com/post/564806957/public-but-hackable-git-submodules
 [url "git@github.com:maxbeatty/"]
   insteadOf = "git://github.com/maxbeatty/"
-  
+
 [push]
   default = tracking
 [diff]
@@ -55,15 +55,15 @@
 [rerere]
   enabled = true
 [user]
-	signingkey = 7537DC3958DA47BA
+	signingkey = EBC283750642C55A
 	name = Max Beatty
 	email = max@beatty.me
 [commit]
-	gpgsign = false
+	gpgsign = true
 [gpg]
 	program = /usr/local/bin/gpg
 [tag]
-	gpgsign = false
+	gpgsign = true
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
