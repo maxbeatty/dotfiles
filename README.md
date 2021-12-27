@@ -25,5 +25,6 @@ I like the [Hack font](https://sourcefoundry.org/hack/) and pick something like 
 ## Additional Resources
 
 - [CLI:improved](https://remysharp.com/2018/08/23/cli-improved)
+- [hermit](https://cashapp.github.io/hermit/)
 - [speed-test](https://github.com/sindresorhus/speed-test)
 - [fast-cli](https://github.com/sindresorhus/fast-cli)
