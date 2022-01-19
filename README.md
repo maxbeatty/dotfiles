@@ -22,6 +22,15 @@ Inspired by [Paul Irish](https://github.com/paulirish/dotfiles), [Mathias Bynens
 
 I like the [Hack font](https://sourcefoundry.org/hack/) and pick something like Dracula from [lysyi3m/macos-terminal-themes](https://github.com/lysyi3m/macos-terminal-themes)
 
+## Vim
+
+The included `.vimrc` requires some one-time setup:
+
+```sh
+mkdir -p ~/.vim/pack/themes/start
+git clone https://github.com/dracula/vim.git ~/.vim/pack/themes/start/dracula
+```
+
 ## Additional Resources
 
 - [CLI:improved](https://remysharp.com/2018/08/23/cli-improved)

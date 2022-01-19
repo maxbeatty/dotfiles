@@ -1,4 +1,4 @@
 packadd! dracula
-syntax on
+syntax enable
 colorscheme dracula
 set rtp+=/opt/homebrew/opt/fzf
