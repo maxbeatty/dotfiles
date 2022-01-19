@@ -3,7 +3,7 @@
 Install dependencies with [Homebrew](https://brew.sh/):
 
 ```sh
-brew install bat diff-so-fancy fzf gh go node romkatv/powerlevel10k/powerlevel10k prettyping zsh-autosuggestions zsh-syntax-highlighting
+brew install bat corepack diff-so-fancy fzf gh go node romkatv/powerlevel10k/powerlevel10k prettyping zsh-autosuggestions zsh-syntax-highlighting
 ```
 
 `wd` (_warp directory_) should be installed with [automatic `curl`](https://github.com/mfaerevaag/wd#automatic) to `~/bin/wd/wd.sh`.
